@@ -1,0 +1,157 @@
+/*Shipping and Billing*/
+
+#ship-bill{
+	width: 400px;
+	position: absolute;
+	left: 300px;
+	top: 500px;
+
+}
+
+#ship-bill > p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 2em;
+
+	color: #ff0000;
+
+	padding-left: 24px;
+}
+
+legend{
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: DodgerBlue;
+}
+
+fieldset{
+	border-radius: 3px;
+}
+
+#bill{
+	margin-bottom: 20px;
+}
+
+#ship{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.regular-label{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+	color: rgb(50, 50, 50);
+	margin-left: 110px;
+	margin-top: 30px;
+}
+
+.regular-label:hover{
+	color: #1e90ff;
+}
+
+.regular-input{
+	width: 170px;
+	height: 23px;
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 2px;
+	margin-left: 110px;
+	margin-bottom: 7px;
+}
+
+.regular-input:focus{
+	box-shadow: 1px 1px #ff0000;
+	width: 200px;
+}
+
+.regular-input:hover{
+	width: 200px;
+}
+
+.address{
+	width: 220px;
+	height: 23px;
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 2px;
+	margin-left: 110px;
+	margin-bottom: 7px;
+}
+
+.address:focus, .address:hover{
+	width: 250px;
+}
+
+.address:focus{
+	box-shadow: 1px 1px #ff0000;
+}
+
+label[for="matchbox"]{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+	color: rgb(50, 50, 50);
+	padding-left: 7px;
+}
+
+#matchbox{
+	box-shadow: 1px 1px 1px #ff0000;
+}
+
+#matchbox:hover{
+	box-shadow: 1px 1px 1px #ffff00;
+}
+
+#matchbox:focus{
+	box-shadow: 1px 1px 1px #00ff00;
+}
+
+input[id="add-bill"], input[id="add-ship"]{
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	width: 240px;
+}
+
+.address-bottom{
+	padding-top: 0;
+	margin-top: 0;
+}
+
+input[id="add-bill-line-b"], input[id="add-ship-line-b"]{
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	width: 240px;
+}
+
+input[type="submit"]{
+	width: 200px;
+	height: 30px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3em;
+	margin-left: 90px;
+	color: #fff;
+	background-color: #1e90ff;
+	margin-bottom: 20px;
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 2px;
+	box-shadow: inset 0 0 1em #fff;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus{
+	width: 220px;
+}
+
+input{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.6em;
+	padding: 3px;
+	opacity: 0.8;
+}
+
+.footer{
+	font-size: 1.2em;
+	clear: left;
+	width: 40%;
+	margin: 0 auto;
+	border-top: 1px solid grey;
+	border-radius: 
+}

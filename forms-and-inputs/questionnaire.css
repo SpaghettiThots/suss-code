@@ -1,0 +1,95 @@
+/*Questionnaire*/
+
+#questionnaire{
+	margin-top: 30px;
+
+	width: 320px;
+	height: 500px;
+	position: absolute;
+	left: 300px;
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 3px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+}
+
+legend{
+	padding-left: 100px;
+	padding-top: 20px;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: "Roboto Slab", serif;
+	color: rgba(255, 0, 0, 1);
+}
+
+fieldset{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+fieldset p{
+	padding-left: 30px;
+}
+
+label{
+	display: block;
+	text-align: right;
+	padding: 10px;
+}
+
+.form-input{
+	position: absolute;
+	left: 40px;
+}
+
+input[type="text"]{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	opacity: .8;
+	width: 210px;
+	text-align: left;
+	padding-left: 15px;
+	height: 25px;
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 2px;
+}
+
+#submit{
+	height: 30px;
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 500;
+	border: 1px solid rgb(192, 192, 192);
+	border-radius: 3px;
+	position: absolute;
+	bottom: 15px;
+	left: 130px;
+}
+
+#submit[value]{
+	color: rgb(0, 100, 255);
+	opacity: .7;
+}
+
+#submit[value]:hover{
+	text-shadow: 0 0 2px rgb(0, 100, 255);
+}
+
+#other{
+	opacity: 0.5;
+}
+
+a{
+	text-decoration: none;
+	color: DodgerBlue;
+}
+
+.footer{
+	font-size: 1.2em;
+	clear: left;
+	width: 40%;
+	margin: 0 auto;
+	border-top: 1px solid grey;
+	border-radius: 
+}

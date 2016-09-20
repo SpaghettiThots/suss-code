@@ -1,0 +1,114 @@
+
+/*Card Form*/
+#card-form{
+	width: 300px;
+	position: absolute;
+	left: 350px;
+	top: 500px;
+}
+
+legend{
+	font-family: 'Roboto Slab', serif;
+}
+
+fieldset{
+	border-color: DodgerBlue;
+	border-radius: 4px;
+}
+
+label{
+	display: block;
+	padding-top: 10px;
+	margin-bottom: 3px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+label:hover{
+	color: rgb(150, 150, 150);
+	font-size: 13px;
+}
+
+#full-name:focus{
+	box-shadow: 0 0 2px #ff0000;
+}
+
+input{
+	height: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#full-name{
+	font-size: 14px;
+}
+
+.digits{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	width: 35px;
+}
+
+#card-number{
+	border: 1px solid DodgerBlue;
+	background-color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#card-number:hover{
+	box-shadow: 2px 2px 2px #ff0000;
+	width: 180px;
+}
+
+.digits:focus{
+	box-shadow: 2px 2px 2px #ff0000;
+	border-radius: 4px solid DodgerBlue;
+}
+
+#n1, #n2, #n3, #n4{
+	border: 0;
+}
+
+#n2, #n3, #n4{
+	padding-left: 0;
+}
+
+#n1, #n2, #n3{
+	padding-right: 4px;
+}
+
+.dash{
+	padding-right: 0;
+	margin-right: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#month, #year{
+	font-size: 14px;
+}
+
+#expiration{
+	padding-bottom: 5px;
+}
+
+input[type="submit"]{
+	width: 130px;
+	height: 30px;
+	margin-left: 60px;
+	color: #fff;
+	background-color: DodgerBlue;
+	font-size: 14px;
+	margin-top: 7px;
+
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: -1px -1px 1px  1px rgb(192, 192, 192);
+	position: absolute;
+	right: 10px;
+	bottom: 16px;
+}
+
+input[type="submit"]:hover{
+	box-shadow: 0 0 2px #ff0000;
+}
+
+
