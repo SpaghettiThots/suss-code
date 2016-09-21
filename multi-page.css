@@ -173,5 +173,12 @@ a{
 	font-size: 16px;
 }
 
+#home-link{
+	position: fixed;
+	top: 400px;
+	right: 40px;
+}
 
-
+#home-link li{
+	background-color: yellow;
+}
